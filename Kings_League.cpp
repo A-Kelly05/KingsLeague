@@ -5,11 +5,15 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
+    
     int eleccion=0, nombre;
+    while (1==1){
+    cout << " ----KINGS LEAGUE----" <<endl;
     cout<< "1. Equipos" << endl;
     cout << "2. Tabla" << endl;
     cout << "3. MVP" << endl;
     cout << "4. Salir" << endl;
+    cout << "Escoge una de las opciones" << endl;
     cin >> eleccion;
     switch (eleccion)
     {
@@ -20,8 +24,17 @@ int main(int argc, char const *argv[])
         equiposKingsLeague(nombre);
         break;
 
-    default:
+    case 3:
+
         break;
+    case 4:
+        cout << "Gracias por tu tiempo" << endl;
+        return 0;
+    default:
+    cout << "" << endl;
+    
+        break;
+    }
     }
     return 0;
 }
