@@ -6,10 +6,10 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
     
-    int eleccion=0, nombre;
+    int eleccion=0, nombre, mvp;
     while (1==1){
     cout << " ----KINGS LEAGUE----" <<endl;
-    cout << "1. Tabla de Clasificación" << endl;
+    cout << "1. Tabla de Clasificacion" << endl;
     cout << "2. Equipos" << endl;
     cout << "3. MVP" << endl;
     cout << "4. Salir" << endl;
@@ -25,8 +25,9 @@ int main(int argc, char const *argv[])
         break;
 
     case 3:
-
+        kingsMvp(mvp);
         break;
+
     case 4:
         cout << "Gracias por tu tiempo" << endl;
         return 0;
