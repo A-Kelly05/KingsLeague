@@ -9,8 +9,8 @@ int main(int argc, char const *argv[])
     int eleccion=0, nombre;
     while (1==1){
     cout << " ----KINGS LEAGUE----" <<endl;
-    cout<< "1. Equipos" << endl;
-    cout << "2. Tabla" << endl;
+    cout << "1. Tabla de Clasificación" << endl;
+    cout << "2. Equipos" << endl;
     cout << "3. MVP" << endl;
     cout << "4. Salir" << endl;
     cout << "Escoge una de las opciones" << endl;
